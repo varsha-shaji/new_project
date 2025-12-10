@@ -3,15 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Styled Content Page</title>
+    <style>
+        /* --- General Reset & Body Styling --- */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Light background */
+            color: #333;
+        }
+
+        /* --- Container for main content --- */
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* --- Header Styling --- */
+        h1 {
+            color: #007bff; /* Primary color for heading */
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+            margin-top: 20px;
+        }
+
+        /* --- Section Styling --- */
+        .content-section {
+            background-color: #ffffff;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+        }
+
+        /* --- Paragraph Styling --- */
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        /* --- List Styling --- */
+        ul {
+            list-style: disc inside; /* Default disc bullet */
+            padding-left: 20px;
+            margin-top: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #555;
+            transition: color 0.3s;
+        }
+
+        li:hover {
+            color: #007bff; /* Highlight list item on hover */
+        }
+
+        /* --- Placeholder Image Styling --- */
+        .image-placeholder {
+            width: 100%;
+            height: 250px;
+            background-color: #ced4da; /* Gray background for placeholder */
+            border-radius: 4px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #495057;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        /* --- Footer Styling --- */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #343a40; /* Dark background */
+            color: #ffffff;
+            margin-top: 30px;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, labore?</p>
+    <div class="container">
+        <h1>Welcome to Our Styled Content Page</h1>
 
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
+        <div class="image-placeholder">
+            [ Placeholder for a Featured Image ]
+        </div>
+
+        <div class="content-section">
+            <h2>Introduction and Overview</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, labore? Accusantium, quae temporibus. Voluptates dicta, nam magnam voluptatum error, eligendi, corporis esse doloremque consectetur iusto debitis officia! Nostrum, minima eveniet.</p>
+
+            <p>This section provides an example of how styling can enhance readability. By using appropriate margins, padding, and font choices, we make the content more inviting and less strenuous to read. Notice the subtle box shadow and clean background.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Key Features</h2>
+            <ul>
+                <li>**Item 1:** Clean, modern font selection.</li>
+                <li>**Item 2:** Clear hierarchy with styled headings.</li>
+                <li>**Item 3:** Optimized layout with a central container.</li>
+                <li>**Item 4:** Interactive elements, like the list hover effect.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Styled Webpage Example
+    </footer>
 </body>
 </html>
