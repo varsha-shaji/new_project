@@ -1,1 +1,2 @@
 "Initial content" 
+"New feature content" 
